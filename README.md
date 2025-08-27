@@ -1,42 +1,41 @@
+# Digital-Payment-System
 
-# Online-Payment-Portal
-
-**A Java-based application for managing online payments with MySQL integration. Users can create accounts, transfer funds, pay expenses, and track transaction history. The system employs linked lists and binary search trees for efficient transaction management and uses file operations to log user details and transactions.**
-
----
-
-## 🚀 Overview
-
-The **Online Payment Portal** is a Java project designed to simplify online payment management with MySQL integration. Users can **register accounts, perform money transfers, pay bills, and maintain transaction histories**. The project leverages **linked lists** and **binary search trees** for optimized transaction handling and persists data using **MySQL**.
+**A Java-driven platform for streamlined online payment management, integrated with MySQL. Users can establish profiles, execute fund transfers, settle bills, and monitor transaction records. The system utilizes linked lists and binary search trees for efficient transaction processing and employs file operations to log user activities and payment details.**
 
 ---
 
-## ⚙️ Features
+## 🌟 Summary
 
-* **Account Management:** Register, login, and manage user profiles.
-* **Payment Operations:** Add balance, transfer funds, and pay expenses.
-* **Transaction History:** View, search, and delete past transactions.
-* **Data Storage:** Stores user, transaction, and expense data in MySQL.
-* **File Logging:** Maintains logs of user activity and transactions.
-* **Data Structures:** Implements linked lists for transaction history and binary search trees for efficient management.
+The **Digital Payment System** is a Java-based solution crafted to enhance online payment efficiency with MySQL integration. Users can **create profiles, conduct transfers, pay invoices, and track transaction logs**. It leverages **linked lists** and **binary search trees** for optimized data handling and stores information using **MySQL**.
 
 ---
 
-## 🛠️ Technologies Used
+## 🔧 Capabilities
+
+* **Profile Management:** Sign up, log in, and update user details.
+* **Payment Functions:** Deposit funds, transfer money, and clear bills.
+* **Transaction Tracking:** Review, query, and remove transaction records.
+* **Data Persistence:** Saves user profiles, transactions, and expenses in MySQL.
+* **Activity Logging:** Records user actions and payments in files.
+* **Data Structures:** Uses linked lists for transaction logs and binary search trees for efficient processing.
+
+---
+
+## 🛠️ Tools & Technologies
 
 * Java
 * MySQL
 * JDBC (Java Database Connectivity)
-* File I/O
+* File Operations
 * Data Structures: Linked List & Binary Search Tree
 
 ---
 
-## 📦 Database Schema
+## 📊 Database Design
 
-* **Database:** `payment_app`
+* **Database:** `payment_system`
 * **Tables:**
 
-  * `users` — stores user account information.
-  * `transactions` — records transaction details.
-  * `expenses` — tracks user expenses.
+  * `profiles` — holds user account details.
+  * `payments` — logs transaction information.
+  * `invoices` — tracks user expenses.
